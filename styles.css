@@ -1,0 +1,143 @@
+
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo de la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Productos */
+section#productos ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+section#productos li {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+section#productos img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Contenedor general */
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+a {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Grid layout para productos */
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Productos individuales */
+.producto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Flexbox para sección de encabezado */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Flexbox para columnas */
+.contenedor-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.columna-flex {
+    flex: 1 1 45%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Responsive con media queries */
+@media (max-width: 768px) {
+    .columna-flex {
+        flex: 1 1 100%;
+    }
+
+    .contenedor-productos {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+
