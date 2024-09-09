@@ -141,3 +141,25 @@ a {
 }
 
 
+/* Nueva clase "box" con flexbox */
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.box-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    flex: 1 1 200px; /* Controla el ancho mínimo y permite el ajuste */
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+    }}
