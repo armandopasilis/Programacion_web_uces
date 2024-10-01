@@ -508,3 +508,43 @@ footer p {
         font-size: 0.8rem; /* 12.8px */
     }
 }
+
+
+
+/* Personalización de las Leyendas del Carrusel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Ajustar el tamaño de las imágenes del carrusel */
+.carousel-item img {
+    height: 500px; /* Ajusta según tus necesidades */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+}
+
+/* Responsividad de las Leyendas del Carrusel */
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-caption {
+        padding: 5px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
