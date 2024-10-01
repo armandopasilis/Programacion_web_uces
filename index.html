@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Baller Brand San Martin</title>
+    <link rel="stylesheet" href="styles.css">    
 </head>
 <body>
     <!-- Encabezado -->
     <header>
         <h1>Baller Brand San Martin</h1> 
-        <img src="imagenes\logo.PNG" alt="Imagen principal de Baller Brand San Martin">
+        <img src="imagenes/logo.PNG" alt="Logo de Baller Brand San Martin">
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -21,12 +21,12 @@
             </ul>
         </nav>
     </header>
+    
     <main>
         <!-- Sección de inicio -->
         <section id="inicio">
             <h2>Bienvenidos a Baller Brand San Martin</h2>
-            <p>Productos unicos de calidad .</p>
-            
+            <p>Productos únicos de calidad.</p>
         </section>
     
         <!-- Sección de productos -->
@@ -34,101 +34,128 @@
             <h2>Nuestros Productos</h2>
             <ul>
                 <li>
-                    <h3>Conjunto 1 deportivo</h3>
-                    <img src="imagenes\ropa_2.png" alt="Producto 1">
+                    <h3>Conjunto 1 Deportivo</h3>
+                    <img src="imagenes/ropa_2.png" alt="Conjunto deportivo Chicago">
                     <p>Conjunto deportivo Chicago.</p>
-                    <a href="#link futoro a carrito de compra">Comprar ahora</a>
+                    <a href="carrito.html">Comprar ahora</a>
                 </li>
                 <li>
-                    <h3>Oferta!! conjunto depoirtivo </h3>
-                    <img src="imagenes\ropa.png" alt="Producto 2">
+                    <h3>Oferta!! Conjunto Deportivo Lakers</h3>
+                    <img src="imagenes/ropa.png" alt="Conjunto deportivo Lakers">
                     <p>Conjunto deportivo Lakers.</p>
-                    <a href="link futuro a carrito de compra ">Comprar ahora</a>
+                    <a href="carrito.html">Comprar ahora</a>
                 </li>
-                <!-- aca voy cargando mas cosas-->
+                <!-- Más productos -->
             </ul>
         </section>
+    
+        <!-- Tabla de precios -->
         <section id="tabla_precios">
-        <table>
-            <thead>
-                <tr>
-                    <th>Producto</th>
-                    <th>Categoría</th>
-                    <th>Talla</th>
-                    <th>Color</th>
-                    <th>Precio</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Conjunto  Nike</td>
-                    <td>Conjunto </td>
-                    <td>M</td>
-                    <td>Negro</td>
-                    <td>$80000</td>
-                </tr>
-                <tr>
-                    <td>Conjunto  Adidas</td>
-                    <td>Conjunto </td>
-                    <td>L</td>
-                    <td>Blanco</td>
-                    <td>$75000</td>
-                </tr>
-                <tr>
-                    <td>Camisa Polo  </td>
-                    <td>Ropa Casual</td>
-                    <td>L</td>
-                    <td>Azul</td>
-                    <td>$50000</td>
-                </tr>
-                <tr>
-                    <td>Jean Levis 501</td>
-                    <td>Ropa Casual</td>
-                    <td>32</td>
-                    <td>Azul</td>
-                    <td>$60000</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Categoría</th>
+                        <th>Talla</th>
+                        <th>Color</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Producto">Conjunto Nike</td>
+                        <td data-label="Categoría">Conjunto</td>
+                        <td data-label="Talla">M</td>
+                        <td data-label="Color">Negro</td>
+                        <td data-label="Precio">$80,000</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Producto">Conjunto Adidas</td>
+                        <td data-label="Categoría">Conjunto</td>
+                        <td data-label="Talla">L</td>
+                        <td data-label="Color">Blanco</td>
+                        <td data-label="Precio">$75,000</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Producto">Camisa Polo</td>
+                        <td data-label="Categoría">Ropa Casual</td>
+                        <td data-label="Talla">L</td>
+                        <td data-label="Color">Azul</td>
+                        <td data-label="Precio">$50,000</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Producto">Jean Levis 501</td>
+                        <td data-label="Categoría">Ropa Casual</td>
+                        <td data-label="Talla">32</td>
+                        <td data-label="Color">Azul</td>
+                        <td data-label="Precio">$60,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    
         <!-- Sección sobre nosotros -->
         <section id="nosotros">
             <h2>Sobre Nosotros</h2>
             <article>Baller Brand San Martin es una tienda dedicada a ofrecer productos exclusivos de alta calidad para deportistas.</article>
-            <!-- Aquí puedes agregar más información sobre la tienda -->
         </section>
     
-        <!-- aca pongo el apartado de contactos  -->
+        <!-- Sección de contacto -->
         <section id="contacto">
             <h2>Contacto</h2>
-            <form action="aca iria la ruta del servidor de correo" method="post">
+            <form action="ruta_del_servidor_de_correo" method="post">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
-                <br>
+                
                 <label for="email">Correo Electrónico:</label>
                 <input type="email" id="email" name="email" required>
-                <br>
-                <label for="pasi">Selecciona tu pais</label>
-                <select name ="" id="pais">
+                
+                <label for="pais">Selecciona tu país</label>
+                <select name="pais" id="pais">
                     <option value="argentina">Argentina</option>
                     <option value="uruguay">Uruguay</option>
                     <option value="brasil">Brasil</option>
                 </select>
-                <br>
+                
                 <label for="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje" required></textarea>
-                <br>
+                
                 <button type="submit">Enviar</button>
                 <button type="reset">Limpiar</button>
             </form>
         </section>
+    
+        <!-- Sección de Productos Destacados -->
+        <section class="contenedor">
+            <h2>Nueva Sección de Productos Destacados</h2>
+            <div class="box">
+                <div class="box-item">
+                    <h3>Producto 1</h3>
+                    <p>Descripción del producto 1</p>
+                </div>
+                <div class="box-item">
+                    <h3>Producto 2</h3>
+                    <p>Descripción del producto 2</p>
+                </div>
+                <div class="box-item">
+                    <h3>Producto 3</h3>
+                    <p>Descripción del producto 3</p>
+                </div>
+                <div class="box-item">
+                    <h3>Producto 4</h3>
+                    <p>Descripción del producto 4</p>
+                </div>
+            </div>
+        </section>
     </main>
-        <!-- aca va el ecrito de derechos de autor -->
+    
+    <!-- Footer -->
     <footer>
-        <li><a href="">Politica de privacidad</a></li>
-        <li><a href="">Terminos y condiciones</a></li>
+        <ul>
+            <li><a href="politica.html">Política de privacidad</a></li>
+            <li><a href="terminos.html">Términos y condiciones</a></li>
+        </ul>
         <p>&copy; 2024 Baller Brand San Martin. Todos los derechos reservados.</p>
     </footer>
-        <!-- JavaScript: aca voy a agregar los comandos de Java scrip , capas pop up con notificaciones     -->
 </body>
 </html>

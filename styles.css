@@ -1,0 +1,550 @@
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo de la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    line-height: 1.6;
+    font-size: 16px; /* Tamaño base */
+}
+
+/* Encabezado */
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem; /* 32px */
+    margin-bottom: 10px;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 1rem; /* 16px */
+}
+
+header nav ul li a:hover {
+    color: #0056b3;
+}
+
+/* Sección de inicio */
+section#inicio {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+section#inicio h2 {
+    font-size: 2rem; /* 32px */
+    margin-bottom: 10px;
+}
+
+section#inicio p {
+    font-size: 1.2rem; /* 19.2px */
+}
+
+/* Sección de productos */
+section#productos {
+    padding: 20px;
+}
+
+section#productos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem; /* 28.8px */
+}
+
+section#productos ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+section#productos li {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    transition: box-shadow 0.3s;
+}
+
+section#productos li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section#productos img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+section#productos a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 1rem; /* 16px */
+}
+
+section#productos a:hover {
+    background-color: #0056b3;
+}
+
+/* Tabla de precios */
+section#tabla_precios {
+    padding: 20px;
+    overflow-x: auto;
+}
+
+section#tabla_precios table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+section#tabla_precios th, 
+section#tabla_precios td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem; /* 16px */
+}
+
+section#tabla_precios th {
+    background-color: #f0f0f0;
+}
+
+section#tabla_precios td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+/* Sección sobre nosotros */
+section#nosotros {
+    padding: 20px;
+    text-align: center;
+}
+
+section#nosotros h2 {
+    font-size: 1.8rem; /* 28.8px */
+    margin-bottom: 10px;
+}
+
+section#nosotros article {
+    font-size: 1rem; /* 16px */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Sección de contacto */
+section#contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#contacto form label,
+section#contacto form input,
+section#contacto form select,
+section#contacto form textarea,
+section#contacto form button {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    font-size: 1rem; /* 16px */
+}
+
+section#contacto form input,
+section#contacto form select,
+section#contacto form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Nueva sección de productos destacados */
+.contenedor {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+.contenedor h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem; /* 32px */
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.box-item {
+    background-color: #e0e0e0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 200px;
+    transition: transform 0.3s, background-color 0.3s, border-color 0.3s;
+    font-size: 1rem; /* 16px */
+}
+
+.box-item h3 {
+    color: #007BFF;
+    font-size: 1.2rem; /* 19.2px */
+}
+
+.box-item p {
+    color: #555;
+    font-size: 1rem; /* 16px */
+}
+
+.box-item:hover {
+    background-color: #d1ecf1;
+    transform: scale(1.05);
+    border-color: #007BFF;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem; /* 16px */
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.9rem; /* 14.4px */
+}
+
+/* Media Queries */
+
+/* Media Query para pantallas <= 768px */
+@media (max-width: 768px) {
+    /* Encabezado */
+    header h1 {
+        font-size: 1.8rem; /* 28.8px */
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    header nav ul li a {
+        font-size: 1rem; /* 16px */
+    }
+
+    /* Sección de inicio */
+    section#inicio h2 {
+        font-size: 1.8rem; /* 28.8px */
+    }
+
+    section#inicio p {
+        font-size: 1.1rem; /* 17.6px */
+    }
+
+    /* Sección de productos */
+    section#productos h2 {
+        font-size: 1.6rem; /* 25.6px */
+    }
+
+    section#productos ul {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    section#productos li {
+        padding: 10px;
+    }
+
+    section#productos a {
+        padding: 8px 16px;
+        font-size: 0.9rem; /* 14.4px */
+    }
+
+    /* Tabla de precios */
+    section#tabla_precios table, 
+    section#tabla_precios thead, 
+    section#tabla_precios tbody, 
+    section#tabla_precios th, 
+    section#tabla_precios td, 
+    section#tabla_precios tr { 
+        display: block; 
+    }
+
+    section#tabla_precios tr {
+        margin-bottom: 15px;
+    }
+
+    section#tabla_precios td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        font-size: 0.9rem; /* 14.4px */
+    }
+
+    section#tabla_precios td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+        font-size: 0.9rem; /* 14.4px */
+    }
+
+    /* Sección sobre nosotros */
+    section#nosotros h2 {
+        font-size: 1.6rem; /* 25.6px */
+    }
+
+    section#nosotros article {
+        font-size: 0.95rem; /* 15.2px */
+    }
+
+    /* Sección de contacto */
+    section#contacto form label,
+    section#contacto form input,
+    section#contacto form select,
+    section#contacto form textarea,
+    section#contacto form button {
+        font-size: 0.95rem; /* 15.2px */
+    }
+
+    /* Sección de productos destacados */
+    .contenedor h2 {
+        font-size: 1.8rem; /* 28.8px */
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-item {
+        width: 100%;
+        max-width: 400px;
+        font-size: 0.95rem; /* 15.2px */
+    }
+
+    .box-item h3 {
+        font-size: 1.1rem; /* 17.6px */
+    }
+
+    .box-item p {
+        font-size: 0.95rem; /* 15.2px */
+    }
+
+    /* Footer */
+    footer ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer ul li a {
+        font-size: 0.95rem; /* 15.2px */
+    }
+
+    footer p {
+        font-size: 0.85rem; /* 13.6px */
+    }
+}
+
+/* Media Query para pantallas <= 480px */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem; /* 24px */
+    }
+
+    section#inicio h2 {
+        font-size: 1.5rem; /* 24px */
+    }
+
+    section#inicio p {
+        font-size: 1rem; /* 16px */
+    }
+
+    section#productos h2 {
+        font-size: 1.4rem; /* 22.4px */
+    }
+
+    section#productos ul {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    section#productos li {
+        padding: 8px;
+    }
+
+    section#productos a {
+        padding: 6px 12px;
+        font-size: 0.85rem; /* 13.6px */
+    }
+
+    section#tabla_precios table, 
+    section#tabla_precios thead, 
+    section#tabla_precios tbody, 
+    section#tabla_precios th, 
+    section#tabla_precios td, 
+    section#tabla_precios tr { 
+        display: block; 
+    }
+
+    section#tabla_precios tr {
+        margin-bottom: 15px;
+    }
+
+    section#tabla_precios td {
+        padding-left: 50%;
+        font-size: 0.85rem; /* 13.6px */
+    }
+
+    section#tabla_precios td::before {
+        font-size: 0.85rem; /* 13.6px */
+    }
+
+    section#nosotros h2 {
+        font-size: 1.4rem; /* 22.4px */
+    }
+
+    section#nosotros article {
+        font-size: 0.9rem; /* 14.4px */
+    }
+
+    section#contacto form label,
+    section#contacto form input,
+    section#contacto form select,
+    section#contacto form textarea,
+    section#contacto form button {
+        font-size: 0.9rem; /* 14.4px */
+    }
+
+    .contenedor h2 {
+        font-size: 1.6rem; /* 25.6px */
+    }
+
+    .box-item {
+        padding: 15px;
+        font-size: 0.9rem; /* 14.4px */
+    }
+
+    .box-item h3 {
+        font-size: 1rem; /* 16px */
+    }
+
+    .box-item p {
+        font-size: 0.9rem; /* 14.4px */
+    }
+
+    footer ul li a {
+        font-size: 0.9rem; /* 14.4px */
+    }
+
+    footer p {
+        font-size: 0.8rem; /* 12.8px */
+    }
+}
+
+
+
+/* Personalización de las Leyendas del Carrusel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Ajustar el tamaño de las imágenes del carrusel */
+.carousel-item img {
+    height: 500px; /* Ajusta según tus necesidades */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+}
+
+/* Responsividad de las Leyendas del Carrusel */
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-caption {
+        padding: 5px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
