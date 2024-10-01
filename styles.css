@@ -549,3 +549,22 @@ footer p {
     }
 }
 
+.map-responsive {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.map-responsive iframe {
+    max-width: 100%; /* Asegura que el iframe sea responsivo */
+    height: auto; /* Mantiene la proporción del iframe */
+}
+.video-responsive {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.video-responsive iframe {
+    max-width: 100%; /* Asegura que el iframe sea responsivo */
+    height: auto; /* Mantiene la proporción del iframe */
+    border: none; /* Opcional: quita el borde */
+}
