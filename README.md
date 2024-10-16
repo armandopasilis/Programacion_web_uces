@@ -1,3 +1,4 @@
+
 # Programación Web UCES
 
 Este proyecto consiste en el desarrollo de una página web como parte del curso de Programación Web 1 en UCES. El propósito es aplicar los conocimientos adquiridos sobre HTML, CSS, y JavaScript en un proyecto práctico.
