@@ -570,3 +570,27 @@ footer p {
     border: none; /* Opcional: quita el borde */
 }
 
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.delete {
+    cursor: pointer;
+    color: red;
+}
+
+#cartList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#totalAmount {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
