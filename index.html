@@ -13,6 +13,8 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
     <script  type="module" src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
 </head>
 <body>
@@ -250,14 +252,18 @@
                 </div>
             </div>
         </section>
-        <h2>Productos Disponibles</h2>
-        <input type="text" id="productName" placeholder="Nombre del Producto">
-        <input type="number" id="productPrice" placeholder="Precio">
-        <button id="addProduct">Agregar al Carrito</button>
-    
-        <h2>Carrito de Compras</h2>
+        <h1>Carrito de Compras</h1>
+        <label for="productSelect">Selecciona un producto:</label>
+        <select id="productSelect">
+            <option value="" disabled selected>Seleccionar producto</option>
+        </select>
+        <button id="addProduct">Agregar al carrito</button>
+        
+        <h2>Carrito</h2>
         <ul id="cartList"></ul>
-    
+        <p id="totalAmount">Total: $0.00</p>
+        <button id="finalizePurchase">Finalizar Compra</button>
+
         <p id="totalAmount">Total: $0</p>
         <!-- Sección sobre nosotros -->
         <section id="nosotros" class="py-5">
