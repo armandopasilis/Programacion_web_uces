@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nombre": "Conjunto Nike M",
+    "precio": 80000
+  },
+  {
+    "id": 2,
+    "nombre": "Conjunto Adidas L",
+    "precio": 75000
+  },
+  {
+    "id": 3,
+    "nombre": "Jean Levis 501 L",
+    "precio": 60000
+  }
+]
