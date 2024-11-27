@@ -1,3 +1,4 @@
+
 export class Carrito {
     constructor() {
         this.items = [];
@@ -24,7 +25,6 @@ export class Carrito {
         this.items = [];
     }
 
-
-
+  
     
 }
