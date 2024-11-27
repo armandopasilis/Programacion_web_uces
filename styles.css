@@ -514,14 +514,14 @@ footer p {
 
 /* Personalización de las Leyendas del Carrusel */
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px;
     border-radius: 5px;
 }
 
 /* Ajustar el tamaño de las imágenes del carrusel */
 .carousel-item img {
-    height: 500px; /* Ajusta según tus necesidades */
+    height: 500px; 
     object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
 }
 
@@ -593,4 +593,12 @@ footer p {
     font-weight: bold;
     font-size: 18px;
     margin-top: 20px;
+}
+
+#price {
+    font-size: 1.5em;
+    color: green;
+}
+#error {
+    color: red;
 }
