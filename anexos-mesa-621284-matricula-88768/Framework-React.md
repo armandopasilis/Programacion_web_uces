@@ -10,7 +10,7 @@ React podría aplicarse al proyecto actual como una evolución del mismo. En una
 
 Esto facilitaría el mantenimiento del código y permitiría escalar la aplicación a funcionalidades más complejas.
 
-- Nivel de dificultad de adaptación
+## Nivel de dificultad de adaptación
 
 - El nivel de dificultad es medio.
 
