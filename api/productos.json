@@ -1,0 +1,14 @@
+[
+    { "id": 1, "nombre": "Conjunto Nike", "categoria": "Conjunto", "talle": "M", "color": "Negro", "precio": 80000 },
+    { "id": 2, "nombre": "Conjunto Adidas", "categoria": "Conjunto", "talle": "L", "color": "Blanco", "precio": 75000 },
+    { "id": 3, "nombre": "Camisa Polo", "categoria": "Ropa Casual", "talle": "L", "color": "Azul", "precio": 50000 },
+    { "id": 4, "nombre": "Jean Levis 501", "categoria": "Ropa Casual", "talle": "32", "color": "Azul", "precio": 60000 },
+    { "id": 5, "nombre": "Conjunto Nike", "categoria": "Conjunto", "talle": "L", "color": "Blanco", "precio": 82000 },
+    { "id": 6, "nombre": "Conjunto Adidas", "categoria": "Conjunto", "talle": "M", "color": "Negro", "precio": 74000 },
+    { "id": 7, "nombre": "Camisa Polo", "categoria": "Ropa Casual", "talle": "M", "color": "Blanca", "precio": 51000 },
+    { "id": 8, "nombre": "Jean Levis 501", "categoria": "Ropa Casual", "talle": "34", "color": "Negro", "precio": 62000 },
+    { "id": 9, "nombre": "Conjunto Puma", "categoria": "Conjunto", "talle": "S", "color": "Gris", "precio": 70000 },
+    { "id": 10, "nombre": "Camisa Oxford", "categoria": "Ropa Casual", "talle": "XL", "color": "Celeste", "precio": 54000 },
+    { "id": 11, "nombre": "Jean Wrangler", "categoria": "Ropa Casual", "talle": "36", "color": "Azul Oscuro", "precio": 58000 },
+    { "id": 12, "nombre": "Conjunto Reebok", "categoria": "Conjunto", "talle": "M", "color": "Rojo", "precio": 72000 }
+]
