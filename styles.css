@@ -514,14 +514,14 @@ footer p {
 
 /* Personalización de las Leyendas del Carrusel */
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px;
     border-radius: 5px;
 }
 
 /* Ajustar el tamaño de las imágenes del carrusel */
 .carousel-item img {
-    height: 500px; /* Ajusta según tus necesidades */
+    height: 500px; 
     object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
 }
 
@@ -570,3 +570,35 @@ footer p {
     border: none; /* Opcional: quita el borde */
 }
 
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.delete {
+    cursor: pointer;
+    color: red;
+}
+
+#cartList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#totalAmount {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#price {
+    font-size: 1.5em;
+    color: green;
+}
+#error {
+    color: red;
+}
