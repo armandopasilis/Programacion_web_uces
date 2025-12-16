@@ -27,7 +27,7 @@ Esto facilitaría el mantenimiento del código y permitiría escalar la aplicaci
 
 Antes (JavaScript  – proyecto actual)
 
-
+<!-- Extracto tomado del archivo script.js -->
 ```jsx
 
 <p id="totalAmount">Total: $0</p>

@@ -48,7 +48,7 @@ Estas características lo convierten en una opción accesible para proyectos des
 Antes ( JavaScript – proyecto actual)
 
 
-
+<!-- Extracto tomado del archivo script.js -->
 ```jsx
 
 <p id="mensaje"></p>
