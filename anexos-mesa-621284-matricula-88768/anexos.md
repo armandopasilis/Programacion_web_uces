@@ -62,7 +62,9 @@ React es un framework/librería JavaScript orientado al desarrollo de interfaces
 
 React podría aplicarse al proyecto actual para mejorar la organización del frontend, separar la interfaz en componentes y reducir la manipulación directa del DOM.
 
-[framework-react.md](./framework React.md)
+[framework react.md](./Framework%React.md)
+
+[Framework React](./Framework%20React.md)
 ---
 
 ### Framework 2 – Vue.js
@@ -71,7 +73,13 @@ Vue.js es un framework progresivo de JavaScript que permite desarrollar interfac
 
 Vue.js podría aplicarse al proyecto actual como una transición gradual hacia un frontend más organizado, manteniendo una curva de aprendizaje accesible.
 
-[framework-react.md](./framework Vue.md)
+[framework Vue.md](./framework Vue.md)
+[Ir al Anexo de Frameworks y Node JS](./FrameworkReact.md)
+
+
+[Framework Vue](./Framework%20Vue.md)
+
+
 ---
 
 ## Conclusión
