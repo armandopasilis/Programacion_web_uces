@@ -49,7 +49,7 @@ Antes ( JavaScript – proyecto actual)
 
 
 
-```bash
+```jsx
 
 <p id="mensaje"></p>
 <p id="totalAmount">Total: $0</p>
@@ -83,7 +83,7 @@ boton.addEventListener("click", () => {
 ### Ejemplo de código – Despues
 
 
-```bash
+```jsx
 
 <p>{{ mensaje }}</p>
 

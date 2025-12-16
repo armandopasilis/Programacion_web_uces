@@ -28,7 +28,7 @@ Esto facilitaría el mantenimiento del código y permitiría escalar la aplicaci
 Antes (JavaScript  – proyecto actual)
 
 
-```bash
+```jsx
 
 <p id="totalAmount">Total: $0</p>
 <button id="addProduct">Agregar producto</button>
@@ -55,7 +55,7 @@ boton.addEventListener("click", () => {
 ## Después (React)
 
 
-```bash
+```jsx
 
 function Carrito() {
   // Estado que representa el total del carrito
