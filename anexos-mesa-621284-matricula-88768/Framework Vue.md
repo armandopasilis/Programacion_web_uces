@@ -47,6 +47,10 @@ Estas características lo convierten en una opción accesible para proyectos des
 
 Antes ( JavaScript – proyecto actual)
 
+
+
+```bash
+
 <p id="mensaje"></p>
 <p id="totalAmount">Total: $0</p>
 <button id="addProduct">Agregar producto</button>
@@ -63,6 +67,7 @@ boton.addEventListener("click", () => {
   totalElement.textContent = `Total: $${total}`;
 });
 
+```
 
 ### Explicación 
 
@@ -76,6 +81,9 @@ boton.addEventListener("click", () => {
 
 
 ### Ejemplo de código – Despues
+
+
+```bash
 
 <p>{{ mensaje }}</p>
 
@@ -101,6 +109,9 @@ const app = Vue.createApp({
 });
 
 app.mount("#app");
+
+
+```
 
 ### Explicación (Vue.js)
 
