@@ -61,6 +61,8 @@ MEAN se caracteriza por ofrecer un framework frontend más estructurado y comple
 React es un framework/librería JavaScript orientado al desarrollo de interfaces de usuario basadas en componentes. Permite crear aplicaciones dinámicas donde la vista se actualiza automáticamente según el estado de la aplicación.
 
 React podría aplicarse al proyecto actual para mejorar la organización del frontend, separar la interfaz en componentes y reducir la manipulación directa del DOM.
+
+[framework-react.md](./framework React.md)
 ---
 
 ### Framework 2 – Vue.js
@@ -68,6 +70,8 @@ React podría aplicarse al proyecto actual para mejorar la organización del fro
 Vue.js es un framework progresivo de JavaScript que permite desarrollar interfaces de usuario de forma reactiva. Se destaca por su sintaxis clara y su facilidad de integración en proyectos desarrollados con JavaScript puro.
 
 Vue.js podría aplicarse al proyecto actual como una transición gradual hacia un frontend más organizado, manteniendo una curva de aprendizaje accesible.
+
+[framework-react.md](./framework Vue.md)
 ---
 
 ## Conclusión
