@@ -49,6 +49,7 @@ Antes ( JavaScript – proyecto actual)
 
 
 <!-- Extracto tomado del archivo script.js -->
+[`script.js` – líneas 73 a 115](../script.js)
 ```jsx
 
 <p id="mensaje"></p>
