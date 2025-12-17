@@ -80,7 +80,7 @@ React es un framework/librería JavaScript orientado al desarrollo de interfaces
 
 React podría aplicarse al proyecto actual para mejorar la organización del frontend, separar la interfaz en componentes y reducir la manipulación directa del DOM.
 
-[framework react.md](./Framework-React.md)
+[framework react.md](./framework-react.md)
 
 
 
@@ -96,7 +96,7 @@ Vue.js podría aplicarse al proyecto actual como una transición gradual hacia u
 
 
 
-[Framework Vue](./Framework-Vue.md)
+[Framework Vue](./framework-vue.md)
 
 
 ---
